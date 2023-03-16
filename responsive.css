@@ -1,0 +1,73 @@
+@media(max-width:1000px) {
+    header{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .main-image{
+        display: none;
+    }
+
+    .main-text{
+        width: 80%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    form {
+        width:100%;
+        text-align: center;
+    }
+
+    .lingkaransosmed{
+        width: 25%;
+        margin: 10px;
+    }
+    footer {
+        padding: 5px 0px;
+    }
+    .logo-btn-footer{
+        left: 0px;
+    }
+    .copyright{
+        margin: 100px;
+        position: absolute;
+    }
+}
+
+
+@media(max-width:670px){
+    nav {
+        display: none;
+    }
+
+    .main-image{
+        display: none;
+    }
+
+    .main-text{
+        width: 80%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    form {
+        width:100%;
+        text-align: center;
+    }
+    
+    .lingkaransosmed{
+        width: 25%;
+        align-items: center;
+    }
+    footer {
+        text-align: center;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    .logo-btn-footer{
+        align-items: center;
+        left: 0px;
+        padding: 0px 20px;
+    }
+}
